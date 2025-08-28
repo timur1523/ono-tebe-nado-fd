@@ -33,18 +33,39 @@
 
 .about{
   display: grid;
-  grid-template-columns: 1fr min-content;
+
+  
 }
+
+.about__column{
+  display: inline-grid;
+}
+
+.about__column--right{
+  width: 693px;
+
+}
+
+  
+
 .about__logo--background{
+  display: grid;
   width: 240px;
   height: 240px;
   background-color: black;
-  padding: 35px 72px 320px 47px;
+  
 }
 
 .about__logo--image{
   width: 148px;
+
 }
+
+.about__descr{
+  display: flex;
+  gap: 24px;
+}
+
 
 .footer{
   display: grid;
