@@ -1,29 +1,33 @@
 /* место для вашего кода */
-.container{
+.container {
   max-width: calc(1052px + 24px * 2);
   padding: 0 24px;
   margin: 0 auto;
 }
-.header{
+
+.header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;;
+  grid-template-columns: 1fr min-content 1fr;
+  ;
   align-items: center;
   padding: 85px 53px 90px 50px;
   font-size: 18px;
 }
-.header__logo-img{
+
+.header__logo-img {
   width: 148px;
 }
-.header__list{
+
+.header__list {
   display: flex;
   gap: 32px;
 }
 
 .header__item {
-   list-style: circle;
+  list-style: circle;
 }
 
-.header__link{
+.header__link {
   font-size: 18px;
 }
 
@@ -31,12 +35,12 @@
   list-style: none;
 }
 
-.header__link--active{
+.header__link--active {
   text-decoration: none;
   list-style: none;
 }
 
-.header__address{
+.header__address {
   display: flex;
   flex-direction: column;
   justify-self: end;
@@ -45,7 +49,8 @@
   align-items: flex-start;
   gap: 4px;
 }
-.cover{
+
+.cover {
   background-image: url("../images/cover.jpg");
   min-height: 757px;
   background-size: cover;
@@ -54,56 +59,56 @@
   margin-bottom: 180px;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   background-color: #00000060;
   z-index: 0;
   left: 0;
   top: 0;
 }
 
-.cover__content{
+.cover__content {
   position: relative;
   z-index: 1;
 }
 
-.cover__title{
+.cover__title {
   display: flex;
   flex-direction: column;
-  font-weight: bold ;
+  font-weight: bold;
   font-size: 100px;
   text-transform: uppercase;
   color: white;
   gap: 16px;
   margin-bottom: 108px;
-  
+
 }
 
-.cover__aligned-text{
+.cover__aligned-text {
   letter-spacing: 0.3em;
 }
 
-.cover__aligned-text--left{
+.cover__aligned-text--left {
   text-align: left;
 }
 
-.cover__aligned-text--center{
+.cover__aligned-text--center {
   text-align: center;
 }
 
-.cover__aligned-text--right{
+.cover__aligned-text--right {
   text-align: right;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   gap: 107px;
   align-items: center;
 }
 
-.cover__description-text{
+.cover__description-text {
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
@@ -111,29 +116,29 @@
   word-spacing: 19px;
 }
 
-.cover__btn{
+.cover__btn {
   background-color: transparent;
   font-size: 22px;
   font-weight: medium;
-  color:#fff;
+  color: #fff;
   text-transform: uppercase;
   border-width: 1px;
   border-color: #fff;
   padding: 12px 32px 11px 31px;
 }
 
-.lots{
+.lots {
   margin-bottom: 120px;
 }
 
 
-.lots__card-list{
+.lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 }
 
-.lots__title{
+.lots__title {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -142,11 +147,11 @@
   padding-bottom: 27px;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   min-height: 596px;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   font-weight: 400;
   font-size: 20px;
   color: #000;
@@ -154,7 +159,7 @@
   padding-left: 40px;
 }
 
-.card__content{
+.card__content {
   display: flex;
   position: relative;
   z-index: 1;
@@ -163,7 +168,7 @@
   height: 100%;
 }
 
-.card__title{
+.card__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -173,14 +178,14 @@
   color: #fff;
 }
 
-.card__text{
+.card__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   color: #fff;
 }
 
-.card{
+.card {
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -188,20 +193,20 @@
   position: relative;
 }
 
-.card--type-film{
+.card--type-film {
   background-image: url("../images/card-lot-01.jpg");
-  
+
 }
 
-.card--type-book{
+.card--type-book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.card--type-picture{
+.card--type-picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.card-link{
+.card-link {
   height: 100%;
   text-decoration: none;
 }
@@ -210,39 +215,39 @@
 
 
 
-.about{
+.about {
   margin-bottom: 181px;
 }
 
-.about__wrapper{
+.about__wrapper {
   display: grid;
   grid-template-columns: 334px 1fr;
   justify-items: center;
-  
-  
+
+
 }
 
-.about__title{
+.about__title {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
   color: #000;
 }
 
-.about__column{
+.about__column {
   padding-top: 35px;
-  
+
 }
 
-.about__column--right{
+.about__column--right {
   padding-left: 20px;
   padding-top: 135px;
 
 }
 
-  
 
-.about__logo-background{
+
+.about__logo-background {
   display: flex;
   width: 240px;
   height: 240px;
@@ -252,41 +257,40 @@
   align-items: center;
 }
 
-.about__logo-image{
+.about__logo-image {
   width: 148px;
 
 }
 
-.about__descr{
+.about__descr {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding-top: 100px;
 }
 
-.about__text{
+.about__text {
   font-weight: 400;
   font-size: 20px;
   color: #000;
   width: 688px;
 }
 
-.about__text--down{
-
-}
+.about__text--down {}
 
 
 
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
   padding: 0 50px 82px 52px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   width: 48px;
 }
-.footer__address{
+
+.footer__address {
   max-width: 265px;
   font-weight: 400;
   font-size: 18px;
@@ -296,7 +300,8 @@
   flex-direction: column;
   gap: 4px;
 }
-.footer__menu{
+
+.footer__menu {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
@@ -305,11 +310,11 @@
   padding-left: 45px;
 }
 
-.footer__link--active{
+.footer__link--active {
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   gap: 48px;
   justify-content: flex-end;
