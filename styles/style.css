@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;;
   align-items: center;
-  padding: 94px 53px 96px 50px;
+  padding: 85px 53px 90px 50px;
   font-size: 18px;
 }
 .header__logo-img{
@@ -46,11 +46,12 @@
   gap: 4px;
 }
 .cover{
-  background-image: url(../images/cover.jpg);
+  background-image: url("../images/cover.jpg");
   min-height: 757px;
   background-size: cover;
   position: relative;
-  padding: 150px 21px 50px 50px;
+  padding: 165px 21px 50px 50px;
+  margin-bottom: 180px;
 }
 
 .overlay{
@@ -76,6 +77,7 @@
   text-transform: uppercase;
   color: white;
   gap: 16px;
+  margin-bottom: 108px;
   
 }
 
@@ -93,48 +95,186 @@
 
 .cover__aligned-text--right{
   text-align: right;
-  padding-bottom: 207px;
 }
+
+.cover__description{
+  display: flex;
+  gap: 107px;
+  align-items: center;
+}
+
+.cover__description-text{
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  word-spacing: 19px;
+}
+
+.cover__btn{
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: medium;
+  color:#fff;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-color: #fff;
+  padding: 12px 32px 11px 31px;
+}
+
+.lots{
+  margin-bottom: 120px;
+}
+
+
+.lots__card-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.lots__title{
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  padding-left: 40px;
+  padding-bottom: 27px;
+}
+
+.lots__card-list-item{
+  min-height: 596px;
+}
+
+.lots__look-more-link{
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.card__content{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__title{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.card__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.card{
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 48px 40px;
+  position: relative;
+}
+
+.card--type-film{
+  background-image: url("../images/card-lot-01.jpg");
+  
+}
+
+.card--type-book{
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card--type-picture{
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.card-link{
+  height: 100%;
+  text-decoration: none;
+}
+
+
+
 
 
 .about{
-  display: grid;
+  margin-bottom: 181px;
+}
 
+.about__wrapper{
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  justify-items: center;
   
+  
+}
+
+.about__title{
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
 }
 
 .about__column{
-  display: inline-grid;
+  padding-top: 35px;
+  
 }
 
 .about__column--right{
-  width: 693px;
+  padding-left: 20px;
+  padding-top: 135px;
 
 }
 
   
 
-.about__logo--background{
-  display: grid;
+.about__logo-background{
+  display: flex;
   width: 240px;
   height: 240px;
   background-color: black;
-  
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.about__logo--image{
+.about__logo-image{
   width: 148px;
 
 }
 
 .about__descr{
   display: flex;
+  flex-direction: column;
   gap: 24px;
+  padding-top: 100px;
 }
 
-.card {
-  position: relative;
+.about__text{
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  width: 688px;
 }
+
+.about__text--down{
+
+}
+
 
 
 .footer{
@@ -148,13 +288,29 @@
 }
 .footer__address{
   max-width: 265px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .footer__menu{
+  font-weight: 400;
+  font-size: 18px;
   text-align: center;
-  max-width: 164px;
-
+  color: #000;
+  display: flex;
+  padding-left: 45px;
 }
+
+.footer__link--active{
+  text-decoration: none;
+}
+
 .footer__social-list{
   display: flex;
   gap: 48px;
+  justify-content: flex-end;
 }
